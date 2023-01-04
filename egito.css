@@ -1,0 +1,214 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredericka+the+Great&family=Kaushan+Script&family=Nerko+One&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+:root {
+    
+
+    --fonte-padrão: arial, helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-android: 'Android', cursive;
+    --font-family: 'Noto Serif', serif;
+    --font-oswald: 'Oswald', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    
+    font-family: var(--font-family);
+    
+}
+a.externo::after{
+    content: '\00a0\1F517';
+}
+header{
+    background-image: url(https://s3.amazonaws.com/uploadedimages.demandmedia/178375366.jpeg);
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+    background-position: top center ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+header > h1{
+    color: rgb(0, 0, 0);
+    font-family: var(-);
+    margin-bottom: 20px;
+    font-size: 3em;
+    text-shadow: 2px 2px 0px rgba(141, 131, 131, 0.31);
+}
+header > p {
+   
+    color: rgb(0, 0, 0);
+    font-family: var(--font-oswald);
+    font-size: 1.5em;
+    max-width: 500px;
+    margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-shadow: 2px 2px 0px rgba(174, 160, 160, 0.267);
+}
+
+nav{
+    background-color: black;
+    padding: 10px;
+    box-shadow: 0px 7px 7px black;
+    text-align: ce;
+    
+}
+
+main{
+    background-color: rgb(222, 214, 203);
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.588) ;
+    margin-bottom: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main a:hover{
+    text-decoration: underline;
+    color: var(--cor4);
+}
+
+section#img01{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Egypt_NK_edit-pt.svg/300px-Egypt_NK_edit-pt.svg.png);
+    background-position: right center;
+    background-size: cover;
+    
+}
+section#img02{
+    background-image: url(https://blogvidanoegito.files.wordpress.com/2020/01/egito-antigo-2.jpg?w=640);
+    background-position: center center;
+    background-size: cover;
+    margin-top: 20px;
+    
+}
+section#img03{
+    background-image: url(https://www.desenhoonline.com/site/wp-content/uploads/Egito.jpg);
+    background-position: left center;
+    background-size: cover;
+    margin-top: 20px;
+    
+}
+section#img04{
+    background-image: url(https://i0.wp.com/arteref.com/wp-content/uploads/2019/07/Pintura-egi%CC%81pcia-1.jpg?resize=750%2C791);
+    background-position: top center;
+    background-size: cover;
+    margin-top: 20px;
+    
+}
+section#img05{
+    background-image: url(https://static.natgeo.pt/files/styles/image_3200/public/01-king-tut.jpg?w=1600&h=1600);
+    background-position: top center;
+    background-size: cover;
+    margin-top: 20px;
+    
+}
+section.imagem{
+    background-color: rgba(0, 0, 0, 0.69);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.706);
+    background-size: cover;
+    background-attachment: fixed;
+}
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.545);
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 1px 1px 0px black;
+    font-size: 3vh;
+}
+
+main img.pequena{
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
+section.imagem > h1 {
+    background-color: rgba(112, 106, 106, 0.545);
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 1px 1px 0px black;
+    font-size: 5vh;
+    text-align: center;
+}
+
+
+
+
+main h1{
+    color: black;
+    font-family: var(--font-family);
+    text-align: center;
+}
+main h2{
+    font-family: var(--font-family);
+    color: var(--cor4);
+    font-size: 1em;
+    line-height: 2em;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    text-indent: 8px;
+}
+main p{
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+    font-size: 1em;
+    margin: 15px 0px;
+}
+main strong{
+    color: var(--cor4);
+    font-weight: bold;
+    
+}
+aside{
+    background-color: var(--cor1);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
+}
+aside > ul{
+    list-style-position: inside;
+    columns: 2;
+    list-style-type: '\2714\00a0\00a0';
+}
+aside > h3{
+    background-color: var(--cor4);
+    color: white;
+    padding: 5px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+nav > a{
+    color: rgba(199, 199, 172, 0.971);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: .5s;
+    padding: 5px;
+}
+nav > a:hover{
+    background-color: rgba(245, 245, 245, 0.236);
+    text-decoration: none;
+}
+article #p{
+    text-align: justify;
+}
+
+
+
