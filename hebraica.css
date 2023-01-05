@@ -85,7 +85,7 @@ main a:hover{
 
 section#img01{
     background-image: url(https://aventurasnahistoria.uol.com.br/media/_versions/legacy/2018/12/10/capa_de_onde_vieram_os_hebreus_biblia_widelg.jpeg);
-    background-position: right center;
+    background-position: left center;
     background-size: cover;
     
 }
@@ -127,9 +127,9 @@ section.imagem{
 section.imagem > p{
     background-color: rgba(0, 0, 0, 0.545);
     display: inline-block;
-    padding: 5px;
+    padding: 10px;
     text-shadow: 1px 1px 0px black;
-    font-size: 3vh;
+    font-size: 2vh;
 }
 
 main img.pequena{

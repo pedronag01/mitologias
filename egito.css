@@ -125,11 +125,12 @@ section.imagem{
     background-attachment: fixed;
 }
 section.imagem > p{
-    background-color: rgba(0, 0, 0, 0.545);
+     background-color: rgba(0, 0, 0, 0.545);
     display: inline-block;
     padding: 5px;
     text-shadow: 1px 1px 0px black;
-    font-size: 3vh;
+    font-size: 2vh;
+    margin-top: 80px;
 }
 
 main img.pequena{

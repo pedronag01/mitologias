@@ -129,7 +129,8 @@ section.imagem > p{
     display: inline-block;
     padding: 5px;
     text-shadow: 1px 1px 0px black;
-    font-size: 3vh;
+    font-size: 2vh;
+    margin-top: 80px;
 }
 
 main img.pequena{
